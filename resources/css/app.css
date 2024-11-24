@@ -1,0 +1,149 @@
+/* resources/css/app.css */
+
+/* Body background with pastel gradient */
+body {
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+/* Card styles */
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons with consistent color */
+.btn-custom {
+    background-color: #a2d5f2;
+    border-color: #a2d5f2;
+    color: #fff;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-custom:hover {
+    background-color: #91c1e1;
+    border-color: #91c1e1;
+}
+
+/* Headings */
+h1.display-4 {
+    color: #6b705c;
+}
+
+p.lead {
+    color: #6b705c;
+}
+
+/* Navbar styles */
+.navbar {
+    margin-top: 0 !important; /* Menghapus jarak atas navbar */
+    padding-top: 0 !important; /* Menghapus padding atas navbar */
+    padding-bottom: 0 !important; /* Menghapus padding bawah navbar */
+    max-width: 800px; /* Atur lebar maksimum navbar */
+    margin: 0 auto; /* Tengah kan navbar di tengah */
+    background: linear-gradient(to right, #003d7a, #b0bec5); /* Gradien biru ke abu-abu */
+}
+
+.navbar-secondary {
+    display: none;
+}
+
+body.home .navbar-secondary,
+body.login .navbar-secondary,
+body.register .navbar-secondary {
+    display: none;
+}
+
+/* Navbar links */
+.navbar-nav .nav-link {
+    color: #fff; /* Warna teks link navbar */
+}
+
+.navbar-nav .nav-link.active {
+    background-color: #0056b3; /* Warna latar belakang untuk link aktif */
+    color: #fff;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #003d7a; /* Warna latar belakang saat hover */
+}
+
+/* Navbar dropdown */
+.navbar-nav .nav-item.dropdown .dropdown-menu {
+    background: #f8f9fa; /* Warna latar belakang dropdown */
+    border-radius: 10px; /* Radius sudut dropdown */
+}
+
+.navbar-nav .nav-item.dropdown .dropdown-menu .dropdown-item {
+    color: #003d7a; /* Warna teks item dropdown */
+}
+
+.navbar-nav .nav-item.dropdown .dropdown-menu .dropdown-item:hover {
+    background-color: #e2e6ea; /* Warna latar belakang item dropdown saat hover */
+}
+
+/* Navbar untuk item dropdown */
+.navbar-nav .nav-item.dropdown .dropdown-menu .dropdown-divider {
+    border-color: #ddd; /* Warna pembatas item dropdown */
+}
+
+/* Button styles */
+.btn-custom {
+    background-color: #a2d5f2;
+    border-color: #a2d5f2;
+    color: #fff;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-custom:hover {
+    background-color: #91c1e1;
+    border-color: #91c1e1;
+}
+
+/* Form styles */
+.form-control {
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    padding: 0.75rem 1.25rem;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    border-color: #0056b3;
+}
+
+/* Margin for containers */
+.container.mt-5 {
+    margin-top: 3rem !important; /* Tambahkan margin atas pada konten */
+}
+
+/* Padding untuk card */
+.card-body {
+    padding: 1.5rem; /* Padding yang lebih besar untuk konten card */
+}
+
+/* Margin untuk judul halaman */
+h1.page-title {
+    margin-bottom: 1.5rem; /* Jarak bawah judul halaman */
+}
+
+/* Margin untuk tabel */
+.table {
+    margin-top: 1.5rem; /* Jarak atas tabel */
+    margin-bottom: 1.5rem; /* Jarak bawah tabel */
+}
+
+/* Styling untuk breadcrumb */
+.breadcrumb {
+    background: transparent;
+    padding: 0;
+    margin-bottom: 1.5rem;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    content: ">";
+}
